@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.10.3" :scope "provided"]
                  [org.clojure/tools.namespace "1.2.0"]
                  [ns-tracker "0.4.0"]]
+  :deploy-repositories [["releases" :clojars]]
   :repl-options {:init-ns repl-reload.core})
